@@ -1,0 +1,12 @@
+# my-captain-python-
+1 print('welcome to my calculator!')
+2 end=input('press enter if you want ot use this tool')
+3 end=input(please enter your command (+,-):')
+4 print('you have selected:',end)
+5 num1=int(input("please enter your first number: "))
+6 num2=int(input("please enter your second number: "))
+7 
+8 if end=='+':
+9 print("your answer is : ",num1+num2)
+10 elif end=='-':
+11 print("your answer is : ",num1-num2)      
