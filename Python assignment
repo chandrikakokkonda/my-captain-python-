@@ -1,0 +1,11 @@
+Print('welcome to my calculator!')
+End=input ('press enter if you want ot use this tool')
+End=input('please enter your command (+,-):')
+Print('you have selected:',end)
+num1=int(input("please enter your first number: "))
+num2=int(input("please enter your second number: "))
+
+if end=='+':
+Print("your answer is:",num1+num2)
+Elif end=='-':
+Print("your answer is:",num1-num2
